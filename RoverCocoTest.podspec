@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RoverCocoTest"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "一个测试Demo，调用函数打印参数"
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "rover" => "roveroc@163.com" }
-  s.source           = { :git => "https://github.com/roveroc/RoverCocoTest.git", :tag => "1.0.0" }
+  s.source           = { :git => "https://github.com/roveroc/RoverCocoTest.git", :tag => "1.0.1" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
