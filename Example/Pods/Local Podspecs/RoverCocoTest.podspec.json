@@ -1,0 +1,25 @@
+{
+  "name": "RoverCocoTest",
+  "version": "0.1.0",
+  "summary": "A short description of RoverCocoTest.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/RoverCocoTest",
+  "license": "MIT",
+  "authors": {
+    "rover": "roveroc@163.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/RoverCocoTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "RoverCocoTest": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
