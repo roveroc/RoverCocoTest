@@ -1,16 +1,16 @@
 {
   "name": "RoverCocoTest",
-  "version": "0.1.0",
-  "summary": "A short description of RoverCocoTest.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/RoverCocoTest",
+  "version": "1.0.0",
+  "summary": "一个测试Demo，调用函数打印参数",
+  "description": "一个测试Demo，调用函数打印参数，尝试一下CocoPods的强大",
+  "homepage": "https://github.com/roveroc/RoverCocoTest",
   "license": "MIT",
   "authors": {
     "rover": "roveroc@163.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/RoverCocoTest.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/roveroc/RoverCocoTest.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "7.0"

@@ -18,20 +18,11 @@
 		47F4252DEFDE1FD558C94B874F716335 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
 		500CFFB619BA25FB57B6AF48F8CCD8F3 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F88C74D733720F86716DAF1B048177E /* UIImage+Compare.m */; };
 		55672D6B6ED622F1B723BFC8E9782EB1 /* Pods-RoverCocoTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1C69E24E8025CF54E65D7541D242B5 /* Pods-RoverCocoTest_Example-dummy.m */; };
+		56115113842863158235CFDFFC5C3363 /* RoverCocoClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C2B5E6692757DCB2BA56013C3BFDFF2 /* RoverCocoClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58CA52BCED9F6E2A9CCE4DF19E873D3E /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A5D64A8DED45B714F8DF2F0AFAC719 /* FBSnapshotTestController.m */; };
-		7650502B7C5C4BFB0804F1EE5C615A13 /* RoverCocoTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62536B90E1354D621AECC16B80304954 /* RoverCocoTest-dummy.m */; };
 		8DECB970785FCBAB4A6315DAA0DB0DF2 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD9EBDCF7067F613B689BB4D2D7F07D /* SwiftSupport.swift */; };
 		90B7E2F40E17730F3E28449559B458E0 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D62B8F28F934EDA4C96FE5B166C7AF0E /* UIImage+Snapshot.m */; };
 		94FDCD720E559DF4C535B3A8E93080C3 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BE969126FF0EDA7A0F3522919CB4C5 /* FBSnapshotTestCasePlatform.m */; };
-		97BADEEC1CB7A50600B480F7 /* RoverCocoClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 97BADEEA1CB7A50600B480F7 /* RoverCocoClass.h */; };
-		97BADEED1CB7A50600B480F7 /* RoverCocoClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 97BADEEA1CB7A50600B480F7 /* RoverCocoClass.h */; };
-		97BADEEE1CB7A50600B480F7 /* RoverCocoClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 97BADEEA1CB7A50600B480F7 /* RoverCocoClass.h */; };
-		97BADEEF1CB7A50600B480F7 /* RoverCocoClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 97BADEEA1CB7A50600B480F7 /* RoverCocoClass.h */; };
-		97BADEF01CB7A50600B480F7 /* RoverCocoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BADEEB1CB7A50600B480F7 /* RoverCocoClass.m */; };
-		97BADEF11CB7A50600B480F7 /* RoverCocoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BADEEB1CB7A50600B480F7 /* RoverCocoClass.m */; };
-		97BADEF21CB7A50600B480F7 /* RoverCocoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BADEEB1CB7A50600B480F7 /* RoverCocoClass.m */; };
-		97BADEF31CB7A50600B480F7 /* RoverCocoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BADEEB1CB7A50600B480F7 /* RoverCocoClass.m */; };
-		97BADEF41CB7A50600B480F7 /* RoverCocoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BADEEB1CB7A50600B480F7 /* RoverCocoClass.m */; };
 		A38506CF4700DA06E89C871D8388D83E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2393D1A899C707F79A64672C46ED238F /* UIKit.framework */; };
 		A4C61B176C7400D29E617097CB93ED97 /* Pods-RoverCocoTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FC3D85A91900F5BF32F44CAED90937 /* Pods-RoverCocoTest_Tests-dummy.m */; };
 		A7F9AAC65FC2D87C34EA9D6A5ACB4401 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B58D5BA3EB09C98A4C815311C792DC /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,12 +30,14 @@
 		BD3C7ABB0598A03B729F141633113043 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FE25CB0990A912973D24121C151E6A /* FBSnapshotTestCase.m */; };
 		C040EA99CA82B44426928999B0A44A7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
 		C5C081A0337FC266B8C37E0D858AB743 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 175E07AEBDAD15ABC9427FE1FC5774C5 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C838D56AF21CE7569CC9C33E2F7F9919 /* RoverCocoTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E154AE7E246EF87E054D9EA8B361C956 /* RoverCocoTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF228D933FFA1B45E1807DE611001B1D /* RoverCocoTest.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B7A544E61ED676FC47CA1DEC470CF152 /* RoverCocoTest.bundle */; };
-		DD76D933891AA61D7E19A8E14DD17C67 /* RoverCocoTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E154AE7E246EF87E054D9EA8B361C956 /* RoverCocoTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E263625D92FC14338F8F06927AEDA599 /* RoverCocoTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62536B90E1354D621AECC16B80304954 /* RoverCocoTest-dummy.m */; };
 		E44BA8216CB73A40822467A02D7D847B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 758DA1CBC128A58D65023AE2318D1257 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E529CF6315E6EB33FBA413EDC4BD9CF7 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDE673C8BA909DDDDB8BFAE9848BFC0 /* FBSnapshotTestCase-dummy.m */; };
 		E5EFBFEA24204492935B2FB2BA7D21B6 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9224AD343A9456F0D12695DF9141B2 /* UIApplication+StrictKeyWindow.m */; };
 		ECE3D7BD7FDAEBE88165482C5EA6BC57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
+		EEC3A7F9453647F7962AE4CD8E1B8FBF /* RoverCocoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A4633AF529C9EBF4B349609F30B44369 /* RoverCocoClass.m */; };
 		FDCF5EFC95C413E5DCF5133D3DFC4170 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853C84AC883B6FC690E82525E7ECB377 /* XCTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +76,7 @@
 		0528444EFC68619AD1FEB8A7CD4A01BA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		08BE39E8A6BF986160FAD67AC4D890E9 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		0A4C0F64AD3D2EF17F9447806B7DB433 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		0C2B5E6692757DCB2BA56013C3BFDFF2 /* RoverCocoClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RoverCocoClass.h; sourceTree = "<group>"; };
 		1554D211ACF5BC6DC75099E42A07A592 /* Pods-RoverCocoTest_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RoverCocoTest_Tests-resources.sh"; sourceTree = "<group>"; };
 		175E07AEBDAD15ABC9427FE1FC5774C5 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		17BE969126FF0EDA7A0F3522919CB4C5 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
@@ -115,10 +109,9 @@
 		8575814874877CB96D9A13C7BBD6AB1A /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		8CDE673C8BA909DDDDB8BFAE9848BFC0 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		90457980B64C10477A79E622CEFB0220 /* Pods-RoverCocoTest_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RoverCocoTest_Example-resources.sh"; sourceTree = "<group>"; };
-		97BADEEA1CB7A50600B480F7 /* RoverCocoClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoverCocoClass.h; sourceTree = "<group>"; };
-		97BADEEB1CB7A50600B480F7 /* RoverCocoClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoverCocoClass.m; sourceTree = "<group>"; };
 		9C550932ED96C2F0A8EA6BED55DD5A63 /* Pods-RoverCocoTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoverCocoTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9ED06F30C181F1D8EFB0AE4621746859 /* RoverCocoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoverCocoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4633AF529C9EBF4B349609F30B44369 /* RoverCocoClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RoverCocoClass.m; sourceTree = "<group>"; };
 		A53807970893F8656D0DF1855C28E769 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A610AD72A447B09310B9626ADA19E4DD /* RoverCocoTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RoverCocoTest.xcconfig; sourceTree = "<group>"; };
 		A7821C9B04CCF1E2388EE167CECACAE4 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,15 +187,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		26075ECF660F637E33E82BF05E0BBE17 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				97BADEEA1CB7A50600B480F7 /* RoverCocoClass.h */,
-				97BADEEB1CB7A50600B480F7 /* RoverCocoClass.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		39E1D86703274605E4C9995283EF2A9E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +211,15 @@
 			);
 			name = "Pods-RoverCocoTest_Tests";
 			path = "Target Support Files/Pods-RoverCocoTest_Tests";
+			sourceTree = "<group>";
+		};
+		4E1317777895E8021AE257D6F3163523 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0C2B5E6692757DCB2BA56013C3BFDFF2 /* RoverCocoClass.h */,
+				A4633AF529C9EBF4B349609F30B44369 /* RoverCocoClass.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		58A1305D922FF21E64916EBF07C5A689 /* SwiftSupport */ = {
@@ -350,11 +343,19 @@
 		E078049314002F27EE0251D8276A0808 /* RoverCocoTest */ = {
 			isa = PBXGroup;
 			children = (
-				FB3D9DAB54CA9A7B7643BF8E907007BC /* Pod */,
+				EA09E0DCB62B99E90049FD05BE5A6156 /* Pod */,
 				9A289852C179F50108DB57FC85E5BE89 /* Support Files */,
 			);
 			name = RoverCocoTest;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		EA09E0DCB62B99E90049FD05BE5A6156 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4E1317777895E8021AE257D6F3163523 /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		F294CE16D0BB89335EB3400EDAA363F5 /* FBSnapshotTestCase */ = {
@@ -365,14 +366,6 @@
 				58A1305D922FF21E64916EBF07C5A689 /* SwiftSupport */,
 			);
 			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		FB3D9DAB54CA9A7B7643BF8E907007BC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				26075ECF660F637E33E82BF05E0BBE17 /* Classes */,
-			);
-			path = Pod;
 			sourceTree = "<group>";
 		};
 		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
@@ -396,7 +389,6 @@
 				125E9AB8D9F3FA41A578627E57C1B37A /* UIApplication+StrictKeyWindow.h in Headers */,
 				E44BA8216CB73A40822467A02D7D847B /* UIImage+Compare.h in Headers */,
 				AEBA7273A59F2B043A31661C1CB1604C /* UIImage+Diff.h in Headers */,
-				97BADEEC1CB7A50600B480F7 /* RoverCocoClass.h in Headers */,
 				C5C081A0337FC266B8C37E0D858AB743 /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,17 +397,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97BADEEE1CB7A50600B480F7 /* RoverCocoClass.h in Headers */,
 				1BC5628D1822FCB03C2D1FEC3B42BB1C /* Pods-RoverCocoTest_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CACF4353257D46EADE36A29663EC113 /* Headers */ = {
+		84BAF5D395CEB0235C3569D0D835BEA9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97BADEEF1CB7A50600B480F7 /* RoverCocoClass.h in Headers */,
-				DD76D933891AA61D7E19A8E14DD17C67 /* RoverCocoTest-umbrella.h in Headers */,
+				56115113842863158235CFDFFC5C3363 /* RoverCocoClass.h in Headers */,
+				C838D56AF21CE7569CC9C33E2F7F9919 /* RoverCocoTest-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,7 +414,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97BADEED1CB7A50600B480F7 /* RoverCocoClass.h in Headers */,
 				22D9B543873C2643DA65BB18598B9EB8 /* Pods-RoverCocoTest_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,10 +442,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 107C59076661FD088C4571CE3D802C6C /* Build configuration list for PBXNativeTarget "RoverCocoTest" */;
 			buildPhases = (
-				2BF157507AD57F62AC2F52EA8E740D2C /* Sources */,
+				E89E33D31C1E25F17829C4C52656741A /* Sources */,
 				EA3CD1957A4B62206FDB046B9D3E8DFD /* Frameworks */,
 				1C490E9D9986DBA9A433F10A61849305 /* Resources */,
-				6CACF4353257D46EADE36A29663EC113 /* Headers */,
+				84BAF5D395CEB0235C3569D0D835BEA9 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -570,21 +560,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2BF157507AD57F62AC2F52EA8E740D2C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7650502B7C5C4BFB0804F1EE5C615A13 /* RoverCocoTest-dummy.m in Sources */,
-				97BADEF31CB7A50600B480F7 /* RoverCocoClass.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C618F68D816AE3268DFD9C459960DC42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A4C61B176C7400D29E617097CB93ED97 /* Pods-RoverCocoTest_Tests-dummy.m in Sources */,
-				97BADEF21CB7A50600B480F7 /* RoverCocoClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,7 +572,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97BADEF41CB7A50600B480F7 /* RoverCocoClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,11 +584,19 @@
 				94FDCD720E559DF4C535B3A8E93080C3 /* FBSnapshotTestCasePlatform.m in Sources */,
 				58CA52BCED9F6E2A9CCE4DF19E873D3E /* FBSnapshotTestController.m in Sources */,
 				8DECB970785FCBAB4A6315DAA0DB0DF2 /* SwiftSupport.swift in Sources */,
-				97BADEF01CB7A50600B480F7 /* RoverCocoClass.m in Sources */,
 				E5EFBFEA24204492935B2FB2BA7D21B6 /* UIApplication+StrictKeyWindow.m in Sources */,
 				500CFFB619BA25FB57B6AF48F8CCD8F3 /* UIImage+Compare.m in Sources */,
 				3C85E62EBD0D660C3DB557FABF9B8E10 /* UIImage+Diff.m in Sources */,
 				90B7E2F40E17730F3E28449559B458E0 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89E33D31C1E25F17829C4C52656741A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC3A7F9453647F7962AE4CD8E1B8FBF /* RoverCocoClass.m in Sources */,
+				E263625D92FC14338F8F06927AEDA599 /* RoverCocoTest-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,7 +605,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				55672D6B6ED622F1B723BFC8E9782EB1 /* Pods-RoverCocoTest_Example-dummy.m in Sources */,
-				97BADEF11CB7A50600B480F7 /* RoverCocoClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

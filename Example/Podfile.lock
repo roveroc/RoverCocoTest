@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.0)
   - FBSnapshotTestCase/SwiftSupport (2.1.0):
     - FBSnapshotTestCase/Core
-  - RoverCocoTest (0.1.0)
+  - RoverCocoTest (1.0.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -16,6 +16,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 366ecd378511d7716c79991cd8067d1eed23578d
-  RoverCocoTest: e9d8be94b50ec5d634d4b06635f8811fe375d2a1
+  RoverCocoTest: 9225a29deaa4bb06a7b6bbf4cf575d6f4e50e3fe
 
 COCOAPODS: 0.39.0
